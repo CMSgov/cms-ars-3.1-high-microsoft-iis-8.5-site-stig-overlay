@@ -1,0 +1,64 @@
+name: cms-ars3.1-iis-site-baseline
+title: cms-ars3.1-iis-site-baseline
+maintainer: CMS InSpec Dev team
+copyright: 
+copyright_email: 
+license: Apache-2.0
+summary: "CMS ARS3.1 Overlay against IIS Site DISA STIG InSpec Profile"
+version: 0.1.0
+
+depends:
+- name: iis-site-baseline
+  git: https://github.com/mitre/iis-site-baseline.git
+  branch: master
+
+attributes:
+  - name: public_server
+    description: 'Specify if the server being reviewed is a public IIS 8.5 web server'
+    type: boolean
+    default: false
+
+  - name: private_server
+    description: 'Specify if the server being reviewed is a private IIS 8.5 web server'
+    type: boolean
+    default: false
+
+  - name: non_production_server
+    description: 'Specify if the server being reviewed is a non-production website'
+    type: boolean
+    default: false
+
+  - name: black_listed_extensions
+    description: 'List of Request Filtering black listed extensions'
+    type: array
+    default: []
+
+  - name: site_name
+    description: 'Name of IIS site'
+    type: array
+    default: ['tt', 'Default']
+
+  - name: http_ip
+    description: 'IP address used for http'
+    type: array
+    default: ['10.0.2.15', '0.0.0.0']
+
+  - name: http_hostname
+    description: 'IP address used for https'
+    type: array
+    default: ['local', 'l']
+    
+  - name: https_ip
+    description: 'IP address used for https'
+    type: array
+    default: ['10.0.2.15', '0.0.0.0']
+
+  - name: https_hostname
+    description: 'Hostname used for https'
+    type: array
+    default: ['localhttps', 'localhttps2']
+
+  - name: log_directory
+    description: 'Path of IIS log directory'
+    type: string
+    default: 'C:\inetpub\logs\LogFiles'
