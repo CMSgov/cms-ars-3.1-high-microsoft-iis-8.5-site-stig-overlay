@@ -1,15 +1,15 @@
-name: cms-ars3.1-iis-site-baseline
-title: cms-ars3.1-iis-site-baseline
-maintainer: CMS InSpec Dev team
-copyright: 
-copyright_email: 
+name: cms-ars3.1-high-microsoft-iis-8.5-site-overlay
+title: cms-ars3.1-high-microsoft-iis-8.5-site-overlay
+maintainer: CMS InSpec Dev Team
+copyright: (c) 2018 The MITRE Corporation
+copyright_email: inspec@mitre.org
 license: Apache-2.0
 summary: "CMS ARS3.1 Overlay against IIS Site DISA STIG InSpec Profile"
 version: 0.1.0
 
 depends:
-- name: iis-site-baseline
-  git: https://github.com/mitre/iis-site-baseline.git
+- name: microsoft-iis-8.5-site-stig-baseline
+  git: https://github.com/mitre/microsoft-iis-8.5-site-stig-baseline.git
   branch: master
 
 attributes:

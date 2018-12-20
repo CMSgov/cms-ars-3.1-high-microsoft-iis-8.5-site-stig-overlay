@@ -2,7 +2,7 @@
 include controls 'microsoft-iis-8.5-site-stig-baseline' do
   control 'V-76773' do
     desc 'check', 'Access the IIS 8.5 IIS Manager.
-
+    
     Click the IIS 8.5 server.
 
     Select "Configuration Editor" under the "Management" section.
