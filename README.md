@@ -1,2 +1,2 @@
-# cms-ars3.1-iis-site-baseline
-CMS ARS 3.1 Overlay InSpec Validation Profile for the IIS Site DISA STIG Benchmark
+# cms-ars3.1-high-microsoft-iis-8.5-site-overlay
+CMS ARS 3.1 High Overlay InSpec Validation Profile for the IIS Site DISA STIG Benchmark
