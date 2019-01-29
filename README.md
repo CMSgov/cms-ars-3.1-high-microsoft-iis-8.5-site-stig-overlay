@@ -48,10 +48,10 @@ The JSON InSpec results file may also be loaded into a __full heimdall server__,
 * Alicia Sturtevant
 
 ## Getting Help
-To report a bug or feature request, please open an [issue](https://github.com/ejaronne/readmes/issues/new).
+To report a bug or feature request, please open an [issue](https://github.cms.gov/ispg-dev/cms-ars-3.1-high-microsoft-iis-8.5-site-stig-overlay/issues/new).
 
 ## License
-This is licensed under the [Apache 2.0](https://github.com/mitre/project/blob/master/LICENSE.md) license. 
+This is licensed under the [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) license. 
 
 ### NOTICE  
 
