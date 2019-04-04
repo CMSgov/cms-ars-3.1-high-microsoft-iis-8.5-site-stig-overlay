@@ -24,19 +24,19 @@ non_production_server: false
 black_listed_extensions: []
 
 # description: 'Name of IIS site'
-site_name: ['tt', 'Default']
+site_name: []
 
 # description: 'IP address used for http'
-http_ip: ['10.0.2.15', '0.0.0.0']
+http_ip: []
 
 # description: 'IP address used for https'
-http_hostname: ['local', 'l'] 
+http_hostname: [] 
     
 # description: 'IP address used for https'
-https_ip: ['10.0.2.15', '0.0.0.0']
+https_ip: []
 
 # description: 'Hostname used for https'
-https_hostname: ['localhttps', 'localhttps2']
+https_hostname: []
 
 # description: 'Path of IIS log directory'
 log_directory: 'C:\inetpub\logs\LogFiles'
