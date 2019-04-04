@@ -8,6 +8,40 @@ __For the best security of the runner, always install on the runner the _latest 
 
 Latest versions and installation options are available at the [InSpec](http://inspec.io/) site.
 
+The following attributes must be configured in an attributes file for the profile to run correctly. More information about InSpec attributes can be found in the [InSpec Profile Documentation](https://www.inspec.io/docs/reference/profiles/).
+
+```
+# description: 'Specify if the server being reviewed is a public IIS 8.5 web server'
+public_server: false
+
+# description: 'Specify if the server being reviewed is a private IIS 8.5 web server'
+private_server: false
+
+# description: 'Specify if the server being reviewed is a non-production website'
+non_production_server: false
+
+# description: 'List of Request Filtering black listed extensions'
+black_listed_extensions: []
+
+# description: 'Name of IIS site'
+site_name: ['tt', 'Default']
+
+# description: 'IP address used for http'
+http_ip: ['10.0.2.15', '0.0.0.0']
+
+# description: 'IP address used for https'
+http_hostname: ['local', 'l'] 
+    
+# description: 'IP address used for https'
+https_ip: ['10.0.2.15', '0.0.0.0']
+
+# description: 'Hostname used for https'
+https_hostname: ['localhttps', 'localhttps2']
+
+# description: 'Path of IIS log directory'
+log_directory: 'C:\inetpub\logs\LogFiles'
+```
+
 ## Running This Overlay
 When the __"runner"__ host uses this profile overlay for the first time, follow these steps: 
 
