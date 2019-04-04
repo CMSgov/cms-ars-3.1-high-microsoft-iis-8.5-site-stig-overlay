@@ -9,7 +9,7 @@ version: 0.1.0
 
 depends:
 - name: microsoft-iis-8.5-site-stig-baseline
-  path: .microsoft-iis-8.5-site-stig-baseline
+  path: ../microsoft-iis-8.5-site-stig-baseline
 
 attributes:
   - name: public_server
