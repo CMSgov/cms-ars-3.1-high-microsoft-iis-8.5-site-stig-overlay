@@ -32,10 +32,7 @@ include_controls 'microsoft-iis-8.5-site-stig-baseline' do
 
          Set the "maxconnections" parameter to "1".'
     describe 'IIS Configuration' do
-      subject { json(command: 'Get-WebConfigurationProperty 
-                -Filter system.applicationHost/sites -name * | 
-                select -   expand siteDefaults | select -expand limits | 
-                ConvertTo-Json ') }
+      subject { json(command: 'Get-WebConfigurationProperty -Filter system.applicationHost/sites -name * | select -expand siteDefaults | select -expand limits | ConvertTo-Json ') }
       its('maxBandwidth') { should eq 1 }
     end
   end
