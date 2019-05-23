@@ -38,8 +38,8 @@ https_ip: []
 # description: Hostname used for https
 https_hostname: []
 
-# description: Path of IIS log directory
-log_directory: 'C:\inetpub\logs\LogFiles'
+# description: Path of IIS log directory (e.g., 'C:\inetpub\logs\LogFiles')
+log_directory: ''
 ```
 
 ## Running This Overlay
