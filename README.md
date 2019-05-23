@@ -11,34 +11,34 @@ Latest versions and installation options are available at the [InSpec](http://in
 The following attributes must be configured in an attributes file for the profile to run correctly. More information about InSpec attributes can be found in the [InSpec Profile Documentation](https://www.inspec.io/docs/reference/profiles/).
 
 ```
-# description: 'Specify if the server being reviewed is a public IIS 8.5 web server'
+# description: Specify if the server being reviewed is a public IIS 8.5 web server
 public_server: false
 
-# description: 'Specify if the server being reviewed is a private IIS 8.5 web server'
+# description: Specify if the server being reviewed is a private IIS 8.5 web server
 private_server: false
 
-# description: 'Specify if the server being reviewed is a non-production website'
+# description: Specify if the server being reviewed is a non-production website
 non_production_server: false
 
-# description: 'List of Request Filtering black listed extensions'
+# description: List of Request Filtering black listed extensions
 black_listed_extensions: []
 
-# description: 'Name of IIS site'
+# description: Name of IIS site
 site_name: []
 
-# description: 'IP address used for http'
+# description: IP address used for http
 http_ip: []
 
-# description: 'Hostname used for http'
+# description: Hostname used for http
 http_hostname: [] 
     
-# description: 'IP address used for https'
+# description: IP address used for https
 https_ip: []
 
-# description: 'Hostname used for https'
+# description: Hostname used for https
 https_hostname: []
 
-# description: 'Path of IIS log directory'
+# description: Path of IIS log directory
 log_directory: 'C:\inetpub\logs\LogFiles'
 ```
 
