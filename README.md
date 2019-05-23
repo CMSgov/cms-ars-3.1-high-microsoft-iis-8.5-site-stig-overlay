@@ -1,5 +1,5 @@
 # cms-ars-3.1-high-microsoft-iis-8.5-site-stig-overlay
-InSpec profile overlay to validate the secure configuration of Microsoft IIS 8.5 Site against [DISA's](https://iase.disa.mil/stigs/Pages/index.aspx) Microsoft IIS 8.5 Site STIG Version 1 Release 6 tailored for [CMS ARS 3.1](https://www.cms.gov/Research-Statistics-Data-and-Systems/CMS-Information-Technology/InformationSecurity/Info-Security-Library-Items/ARS-31-Publication.html) for CMS systems categorized as High.
+InSpec profile overlay to validate the secure configuration of Microsoft IIS 8.5 Site against [DISA's](https://iase.disa.mil/stigs/Pages/index.aspx) Microsoft IIS 8.5 Site STIG Version 1 Release 5 tailored for [CMS ARS 3.1](https://www.cms.gov/Research-Statistics-Data-and-Systems/CMS-Information-Technology/InformationSecurity/Info-Security-Library-Items/ARS-31-Publication.html) for CMS systems categorized as High.
 
 ## Getting Started  
 It is intended and recommended that InSpec and this profile overlay be run from a __"runner"__ host (such as a DevOps orchestration server, an administrative management system, or a developer's workstation/laptop) against the target remotely over __winrm__.
