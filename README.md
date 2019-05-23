@@ -29,7 +29,7 @@ site_name: []
 # description: 'IP address used for http'
 http_ip: []
 
-# description: 'IP address used for https'
+# description: 'Hostname used for http'
 http_hostname: [] 
     
 # description: 'IP address used for https'
