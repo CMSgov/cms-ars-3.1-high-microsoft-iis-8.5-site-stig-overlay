@@ -33,31 +33,31 @@ attributes:
     default: []
 
   - name: site_name
-    description: 'Name of IIS site'
+    description: 'Name of IIS site (e.g., [''tt'', ''Default'']).'
     type: array
-    default: ['tt', 'Default']
+    default: []
 
   - name: http_ip
-    description: 'IP address used for http'
+    description: 'IP address used for http (e.g., [''10.0.2.15'', ''0.0.0.0''])'
     type: array
-    default: ['10.0.2.15', '0.0.0.0']
+    default: []
 
   - name: http_hostname
-    description: 'IP address used for https'
+    description: 'IP address used for https (e.g., [''local'', ''l''])'
     type: array
-    default: ['local', 'l']
+    default: []
     
   - name: https_ip
-    description: 'IP address used for https'
+    description: 'IP address used for https (e.g., [''10.0.2.15'', ''0.0.0.0''])'
     type: array
-    default: ['10.0.2.15', '0.0.0.0']
+    default: []
 
   - name: https_hostname
-    description: 'Hostname used for https'
+    description: 'Hostname used for https (e.g., [''localhttps'', ''localhttps2'']).'
     type: array
-    default: ['localhttps', 'localhttps2']
+    default: []
 
   - name: log_directory
-    description: 'Path of IIS log directory'
+    description: 'Path of IIS log directory (e.g., ''C:\inetpub\logs\LogFiles'')'
     type: string
-    default: 'C:\inetpub\logs\LogFiles'
+    default: ''
