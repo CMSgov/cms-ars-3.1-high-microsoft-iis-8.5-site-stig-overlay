@@ -215,7 +215,7 @@ include_controls 'microsoft-iis-8.5-site-stig-baseline' do
 
   control 'V-76861' do
     impact "none"
-    desc 'caveat': "Not applicable for this CMS ARS 3.1 overlay, since the related 
+    desc 'caveat', "Not applicable for this CMS ARS 3.1 overlay, since the related 
           security control is not mandatory in CMS ARS 3.1"
   end
 
